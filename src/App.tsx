@@ -13,6 +13,7 @@ import Nozzlegun from './pages/nozzlegun';
 import Pump from './pages/pump';
 import Aksesoris from './pages/aksesoris';
 import ScrollToTop from './components/ScrollToTop';
+import WhatsappFloat from './components/WhatsappFloat';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         <Route path='/pump' element={<Pump />} />
         <Route path='/aksesoris' element={<Aksesoris />} />
       </Routes>
+      <WhatsappFloat />
       <FooterComponent />
     </Router>
     
