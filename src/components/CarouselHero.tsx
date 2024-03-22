@@ -3,6 +3,7 @@ import heroBackground from "../assets/backgroundutamawhite1.png";
 import logo from "../assets/almanialogo.png";
 import backgroundFlow from "../assets/background_watermeter.png";
 import backgroundNozzle from "../assets/backgroundnozzlegun.png";
+import { Link } from 'react-router-dom';
 
 
 function CarouselHero() {
@@ -30,7 +31,7 @@ function CarouselHero() {
   
 
   return (
-    <div id='hero' className='relative'>
+    <div id='hero' className='relative min-h-screen'>
       <div className="inset-0 h-[700px] w-full">
         <Carousel>
           <div style={slideStyle} className="flex h-full items-center justify-center dark:text-white">
@@ -51,8 +52,25 @@ function CarouselHero() {
             </ul>
             
           </div>
-          <div style={slideStyle3} className="flex h-full items-center justify-center dark:text-white">
-            Slide 3
+          <div style={slideStyle3} className="flex flex-col h-full items-center justify-center dark:text-white">
+                {/* <h1 className="text-white font-bold text-4xl xl:text-5xl">
+                    Temukan Produk Sesuai Kebutuhanmu
+                    <span className='text-[#fa0101]'> Sekarang !</span>
+                </h1>
+                <p className="text-gray-300 text-center max-w-xl leading-relaxed sm:mx-auto lg:ml-0">
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
+                </p> */}
+            <h1 className="text-4xl text-white font-extrabold sm:text-5xl ms-3">
+              Temukan Produk Pilihanmu <span className='text-[#fa0101]'>Sekarang !</span>
+            </h1>
+            <p className="md:text-center text-left text-gray-300 mt-4 ms-3">
+                Klik tombol di bawah untuk memulai perjalanan baru Anda menuju inovasi tanpa batas!
+            </p>
+            <div className="mt-12">
+                <Link to={"/semuaproduk"} className="py-3 px-4 text-white bg-[#fa0101] hover:bg-indigo-700 rounded-md shadow">
+                    Lihat Produk
+                </Link>
+            </div>             
           </div>
         </Carousel>
       </div>

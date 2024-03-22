@@ -31,10 +31,10 @@ export default () => {
                         Tentang Kami
                     </h1>
                     <p className="text-gray-600 mt-3">
-                    Cahaya Pelumasindo adalah perusahaan berpengalaman yang telah lama melayani kebutuhan Flow Meter, Water Meter, dan kebutuhan perminyakan di seluruh wilayah Indonesia. Kami memasok berbagai merek Flow Meter, Water Meter, Pompa, Nozzle Gun, Hose Reel, Deep Stick, dan peralatan keselamatan yang sesuai dengan kebutuhan Anda, dengan penekanan pada produk-produk berkualitas.
+                    Almania Central Teknik, sebuah perusahaan yang telah lama berdedikasi dalam menyediakan solusi terbaik untuk kebutuhan Flow Meter, Water Meter, dan peralatan perminyakan di seluruh wilayah Indonesia. Sebagai penyedia terkemuka, kami menawarkan beragam merek unggulan seperti Flow Meter, Water Meter, Pompa, Nozzle Gun, Hose Reel, Deep Stick, dan alat safety, semua dipilih dengan cermat untuk memenuhi standar kualitas tertinggi.
                     <br />
                     <br />
-                    Selain itu, kami menawarkan jasa service Flow Meter, maintenance, serta layanan tera/kalibrasi untuk                             memastikan bahwa peralatan Anda berfungsi dengan akurat dan andal sepanjang waktu. Dengan komitmen kami                             terhadap kualitas, keandalan, dan keamanan, Cahaya Pelumasindo adalah mitra ideal Anda dalam menjaga                             operasi bisnis Anda tetap berjalan lancar.
+                    Dengan komitmen kami terhadap kepuasan pelanggan, Almania Central Teknik tidak hanya menyediakan produk berkualitas tinggi, tetapi juga memberikan layanan jasa yang komprehensif. Kami menawarkan jasa service untuk Flow Meter, melakukan maintenance berkala, serta Tera/kalibrasi untuk memastikan bahwa peralatan Anda tetap beroperasi secara optimal. Keahlian dan pengalaman kami dalam industri ini menjadikan Almania Central Teknik sebagai mitra yang dapat diandalkan untuk memenuhi segala kebutuhan peralatan dan layanan terkait di sektor perminyakan dan industri lainnya.
                     </p>              
                 </div>
                 <div className="mt-12">

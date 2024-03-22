@@ -26,14 +26,14 @@ export default () => {
       <nav style={styleBackground} className="w-full h-21 md:border-0 md:fixed top-0 z-50">
           <div className="items-center px-2 max-w-screen-xl mx-auto md:flex md:px-8">
               <div className="flex items-center justify-between py-2 md:py-4 md:block">
-                    <a href="javascript:void(0)">
+                    <Link to={'/'}>
                         <img
                             src={logoAlmania}
                             width={200} 
                             height={50}
                             alt="almania logo"
                         />
-                    </a>
+                    </Link>
                   <div className="md:hidden">
                       <button className="text-gray-700 outline-none p-2 rounded-md focus:border-gray-400 focus:border"
                           onClick={() => setState(!state)}

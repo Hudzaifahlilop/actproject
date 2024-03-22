@@ -3,21 +3,21 @@ export default () => {
     const testimonials = [
         {
             avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-            name: "Putri",
-            title: "Founder of meta",
-            quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
+            name: "Hendra",
+            title: "Procurement",
+            quote: "Saya sangat puas dengan layanan Almania Central Teknik. Produk-produknya berkualitas tinggi dan sesuai dengan kebutuhan saya."
         },
         {
             avatar: "https://randomuser.me/api/portraits/men/46.jpg",
-            name: "Simon andrew",
-            title: "Software engineer",
-            quote: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
+            name: "Andika",
+            title: "Teknisi",
+            quote: "Saya baru saja membeli Flow Meter dari almania Central Teknik dan sangat puas dengan produknya. Flow Meter tersebut berfungsi dengan baik dan akurat."
         },
         {
             avatar: "https://randomuser.me/api/portraits/men/86.jpg",
-            name: "Micheal worin",
-            title: "Product designer",
-            quote: "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain."
+            name: "Andreas",
+            title: "Purchasing",
+            quote: "Produk-produknya berkualitas dan pengirimannya selalu tepat waktu. Saya akan kembali membeli produk dari almania Central Teknik di masa mendatang"
         },
     ]
 

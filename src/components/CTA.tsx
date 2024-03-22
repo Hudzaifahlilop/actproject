@@ -8,7 +8,7 @@ const CTA = () => {
         <SectionWrapper id="cta" className="pb-0 bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))] from-rose-100 to-teal-100">
             <div className="custom-screen">
                 <LogoGrid />
-                <div className="max-w-screen-xl mx-auto px-4 py-28 gap-12 text-gray-600 overflow-hidden md:px-8 md:flex">
+                <div className="max-w-screen-xl mt-[-80px] md:mt-1 px-4 py-28 gap-12 text-gray-600 overflow-hidden md:px-8 md:flex">
                     <div className="max-w-xl mt-6 md:mt-0 lg:max-w-2xl">
                         <h2 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
                         Mencapai Keunggulan Bisnis dengan <span className='text-[#fa0101]'>Solusi Produk Kami.</span>
